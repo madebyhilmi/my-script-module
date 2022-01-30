@@ -1,6 +1,6 @@
 {
-  "name": "module",
-  "title": "New Module",
+  "name": "my-script",
+  "title": "My Test Script",
   "description": "",
   "version": "This is auto replaced",
   "library": "false",
