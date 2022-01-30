@@ -6,9 +6,8 @@ Hooks.once('ready', async function () {
     console.log("Ready!");
 });
 
-Hooks.on("renderChatMessage", (message, html, data) => {
-    if (message.roll.result != null) {
-        const result = message.roll.result
-        console.log(result)
-    }
+Hooks.on("ChatMessage", (message) => {
+    console.log("A message!!!!");
+    console.log(message.user);
+    console.log(message.content);
 })
